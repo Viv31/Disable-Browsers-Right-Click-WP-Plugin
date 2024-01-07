@@ -3,12 +3,12 @@ Contributors: vaibhav31gangrade
 Donate link: 
 Tags: Disable Right Click,Prevent Right Click,Disable click 
 Requires at least: 4.6
-Tested up to: 6.1
-Stable tag: 5.2
+Tested up to: 6.3
+Stable tag: 1.0
 Requires PHP: 5.2.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
-Donate link: https://example.com/
+Donate link: 
 
 == Description ==
 A wordpress plugin which is used for disable right click in the browser..
