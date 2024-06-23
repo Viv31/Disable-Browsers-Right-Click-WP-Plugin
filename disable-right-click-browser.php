@@ -1,4 +1,3 @@
-<?php
 /*
 * Plugin Name: Disable Right Click
 * Author: Vaibhav Gangrade
@@ -10,20 +9,19 @@
 
 if (!defined('ABSPATH')) exit; // Prevent Direct Access
 
-if (!function_exists('DRC_load_admin_js')) {
-    function DRC_load_admin_js() {
+if (!function_exists('DRC_load_scripts')) {
+    function DRC_load_scripts() {
         // Enqueue jQuery
         wp_enqueue_script('jquery');
-    }
-    add_action('wp_enqueue_scripts', 'DRC_load_admin_js');
-}
 
-if (!function_exists('DRC_disable_click')) {
-    function DRC_disable_click() { ?>
-        <script type="text/javascript">
+        // Register the main script
+        wp_register_script('drc-main-script', false);
+
+        // Add inline script
+        $inline_script = <<<EOD
         jQuery(document).ready(function($) {
             // Disable right-click
-           jQuery("body").on("contextmenu", function() {
+            jQuery("body").on("contextmenu", function() {
                 return false;
             });
 
@@ -59,9 +57,11 @@ if (!function_exists('DRC_disable_click')) {
                 }, 200);
             });
         });
-        </script>
-    <?php }
-}
+        EOD;
 
-add_action('wp_footer', 'DRC_disable_click');
+        wp_add_inline_script('drc-main-script', $inline_script);
+        wp_enqueue_script('drc-main-script');
+    }
+    add_action('wp_enqueue_scripts', 'DRC_load_scripts');
+}
 ?>
