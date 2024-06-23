@@ -1,52 +1,50 @@
 == Disable Right Click  ==
 Contributors: vaibhav31gangrade
 Donate link: 
-Tags: Disable Right Click,Prevent Right Click,Disable click 
+Tags: Disable Right Click, Prevent Right Click, Disable Click 
 Requires at least: 4.6
 Tested up to: 6.3
-Stable tag: 1.0
+Stable tag: 1.1
 Requires PHP: 5.2.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Donate link: 
 
 == Description ==
-A wordpress plugin which is used for disable right click in the browser..
+A WordPress plugin that disables right-click functionality in the browser to prevent content theft and improve security.
 
 == How to Use ==
-
-After installation it will automatically prevent right click of any page.
+After installation, it will automatically prevent right-click on any page.
 
 == Requirements ==
-It can run on any wordpress version.
+It can run on any WordPress version.
 
 == Frequently Asked Questions ==
 
 = How can I disable right click? =
-  Through this plugin you can prevent right click.
+Through this plugin, you can prevent right-click.
 
-= Will it prevent keyboards shortcuts ?
-  Yes It will disable keyboard keys also.
+= Will it prevent keyboard shortcuts? =
+Yes, it will disable certain keyboard keys also.
 
+== Changelog ==
 
- == Changelog == 
- = 1.1 =
-* A change since the previous version.
+= 1.1 =
+* Fixed a security-related bug. Upgrade immediately.
 
- == Upgrade Notice ==
+= 1.0 =
+* Initial release. Website preloader with various options.
 
- = 1.1 =
-This version fixes a security related bug.Upgrade immediately.
+== Upgrade Notice ==
 
- = 1.0 =
-Website Preloader with various options.
+= 1.1 =
+This version fixes a security-related bug. Upgrade immediately.
 
-
+= 1.0 =
+Initial release.
 
 == Screenshots ==
-This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets
-directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png`
-(or jpg, jpeg, gif).
 
-2. This is the second screen shot
+1. This screenshot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png` (or jpg, jpeg, gif).
+
+2. This is the second screenshot description.
