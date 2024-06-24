@@ -3,7 +3,7 @@ Contributors: vaibhav31gangrade
 Donate link: 
 Tags: Disable Right Click, Prevent Right Click, Disable Click 
 Requires at least: 4.6
-Tested up to: 6.4
+Tested up to: 6.5
 Stable tag: 1.1
 Requires PHP: 5.2.4
 License: GPLv2 or later
