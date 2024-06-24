@@ -1,3 +1,5 @@
+<?php
+
 /*
 * Plugin Name: Disable Right Click
 * Author: Vaibhav Gangrade
